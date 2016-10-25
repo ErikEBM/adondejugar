@@ -10,7 +10,10 @@
 .div_padre{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    width: 500px;
+    /* background: rebeccapurple; */
+    margin: 0 auto;
 }
 .to_do_List{
     font-weight: bold;
@@ -21,6 +24,7 @@
 .formulario{
     padding-bottom: 25px;
     display: flex;
+    width: 100%;
 }
 
 .formulario input:nth-child(1){
@@ -41,8 +45,8 @@
 }
 
 .tabla_listas{
-    width: 41%;
-    /* margin: 0 auto; */
+    width: 100%;
+    margin: 0 auto;
 }
 
 .tabla_listas td{
