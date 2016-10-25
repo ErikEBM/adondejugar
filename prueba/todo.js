@@ -2,6 +2,7 @@
 var $txtitem = document.getElementById("agregar_listas")
 var $btnitem = document.getElementById("enviar")
 var $tbtitem = document.getElementById("guardar_listas")
+var $fmitem = document.getElementById("formulario")
 
 
 var xhr = new XMLHttpRequest();
@@ -39,6 +40,16 @@ $btnitem.onclick = function(e){
     <td><input type="checkbox"></td>
     <td><a class="boton_eliminar">eliminar</a></td>
     </tr>`;
+
+    var petpost = new XMLHttpRequest();
+    petpost.open('POST', $fmitem.action, true);
+
+    var data = new FormData();
+    data.append('name', $txtitem.value);
+    data.append('state', false);
+    petpost.send(data);
+    console.log(data);
+    console.log($txtitem.value);
 }
 
 
@@ -52,4 +63,6 @@ $tbtitem.onclick = function(e){
     
     
     }
+
+
 
