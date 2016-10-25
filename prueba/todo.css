@@ -1,0 +1,77 @@
+.boton_eliminar{
+    background-color: #ce8f1c;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 2px 5px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.div_padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.to_do_List{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: #4b4b8a;
+}
+.formulario{
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.formulario input:nth-child(1){
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 5px 0 0 5px;
+    border-style: none;
+    border: 1px solid rgba(128, 128, 128, 0.69);
+}
+
+.formulario input:nth-child(2){
+    background-color: #5462b3;
+    padding: 5px 20px;
+    border-style: none;
+    border-radius: 0 5px 5px 0;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.tabla_listas{
+    width: 41%;
+    /* margin: 0 auto; */
+}
+
+.tabla_listas td{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.tabla_listas td:nth-child(1){
+    
+    width: 50%;
+}
+
+.tabla_listas td:nth-child(2){
+    width: 25%;
+    text-align: center;
+}
+
+.tabla_listas td:nth-child(n+3){
+    text-align: right;
+    width: 25%;
+}
+
+.tabla_listas tr{
+    /* margin-bottom: 12px; */
+    margin-bottom: 12px;
+    display: flex;
+    /* padding-bottom: 12px; */
+    border-bottom: 1px dashed #b1aaaa;
+    padding-bottom: 7px;
+}
+
+.tabla_listas tr:last-child{margin-bottom: 0;padding-bottom: 0;border-bottom: 0;}

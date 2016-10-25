@@ -1,0 +1,315 @@
+.header{
+    
+display: flex;
+    
+justify-content: space-between;
+    
+padding: 15px;
+    
+max-width: 1100px;
+    
+margin: 0 auto;
+}
+
+
+.agrega_local{
+
+}
+.agrega_local>a{
+    
+font-weight: bold;
+}
+.logo{
+
+}
+.logo>h1{
+
+}
+.logearse{
+
+/* justify-content: space-between; */
+
+/* padding: 0 14px; */
+
+/* text-align: center; */
+}
+.sign_up{
+
+background-color: red;
+
+color: white;
+
+padding: 10px 15px;
+
+border-radius: 5px;
+
+/* padding-left: 10px; */
+
+/* margin: 2px; */
+
+margin-left: 11px;
+}
+
+.buscador{
+
+/* display: flex; */
+
+padding:  30px;
+
+/* width: 100%; */
+
+background-color: rgb(181, 173, 173);
+}
+.ingresar_informacion{
+    
+padding: 100px 0;
+    
+/* width: 80%; */
+    
+text-align: center;
+}
+
+.ingresar_informacion>h3{
+
+font-weight: bold;
+
+font-size: 27px;
+
+margin-bottom: 18px;
+
+/* color: white; */
+
+/* border: 1px solid black; */
+}
+
+.ingresar_informacion>form{
+    
+width: 80%;
+    
+display: flex;
+    
+margin: 0 auto;
+    
+justify-content: space-between;
+    
+margin-top: 30px;
+}
+
+
+.select_jugar{
+
+width: 18%;
+
+padding: 11px;
+}
+.select_departamento{
+
+width: 1;
+
+width: 17%;
+}
+.input_ingresar{
+
+width: 55%;
+}
+.boton{
+    
+width: 10%;
+}
+
+.informacion_locales{
+
+padding: 30px 10px;
+
+max-width: 1100px;
+
+margin: 0 auto;
+}
+.ver_locales{
+
+display:  flex;
+
+justify-content: space-between;
+
+margin-bottom: 24px;
+
+padding: 10px;
+}
+.ver_locales>p{
+    
+}
+.ver_locales>a{
+    
+}
+.locales{
+
+display: flex;
+
+justify-content: space-between;
+
+/* padding: 0 40px; */
+
+width: 100%;
+
+/* flex-direction: column; */
+}
+.locales>div{
+
+width: 18%;
+
+/* padding-left: 40px; */
+
+/* padding: 0 40px; */
+
+/* margin-right: 40px; */
+}
+.locales>div>img{
+
+width: 100%;
+}
+.locales>div>h3{
+
+}
+
+
+.ventana_modal{
+
+/* display: flex; */
+
+/* flex-direction: column; */
+
+/* flex-direction: row; */
+
+background-color: rgba(0,0,0,.3);
+
+padding-top: 50px;
+
+position: absolute;
+
+width: 100%;
+
+display: block;
+
+top: 0;
+
+height: 100%;
+}
+.formulario_modal{
+
+flex-direction: column;
+
+display: flex;
+
+width: 50%;
+
+padding: 15px;
+
+box-sizing: border-box;
+
+margin: 0 auto;
+
+background-color: black;
+
+border-radius: 5px;
+}
+.formulario_modal>select{
+    
+padding: 15px;
+    
+display: inline-block;
+    
+margin-bottom: 9px;
+    
+/* box-sizing: content-box; */
+    
+/* width: 100%; */
+    
+border-radius: 5px;
+}
+.formulario_modal>input{
+    
+padding: 15px;
+    
+margin-bottom: 10px;
+    
+/* border-radius: 5px; */
+}
+.formulario_modal>input:last-child{
+    
+margin-bottom: 0;
+}
+
+.boton_modal{
+    display: none;
+}
+@media (max-width:1281px){
+    body{
+        background-color: blueviolet;
+    }
+}
+@media (max-width:1025px){
+    body{
+        background-color: brown;
+
+    }
+    .locales>div:last-child{
+        display: none;
+    }
+    .locales>div{
+        width: 23%;
+
+    }
+    .ingresar_informacion>form{
+        display: none;
+    }
+    .boton_modal{
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .ventana_modal{
+        display:none;
+    }
+}
+@media (max-width:801px){
+    body{
+        background-color: green;
+    }
+    .locales{
+        flex-flow: row wrap;
+    }
+    .locales>div{
+        width: 47%;
+
+    }
+    .locales>div:nth-child(1), .locales>div:nth-child(2){
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px){
+    body{
+        background-color: yellow;
+    }
+}
+@media (max-width:480px){
+    body{
+        background-color: purple;
+    }
+}
+@media (max-width:320px){
+    body{
+        background-color: red;
+    }  
+    .locales>div{
+        width: 100%;
+    
+    }
+    .locales>div:nth-child(n){
+        margin-bottom: 30px;
+    }
+    .locales>div:nth-child(n+4){
+        margin-bottom: 0;
+    }
+    
+
+}

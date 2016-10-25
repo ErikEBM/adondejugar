@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" charset="UTF-8">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="agrega_local">
+            <a href="#">Agrega tu local</a>
+        </div>
+        <div class="logo">
+            <h1>A donde jugar</h1>
+        </div>
+        <div class="logearse">
+            <a href="#">Log in</a>
+            <a class="sign_up" href="#">Sign up</a>
+        </div>
+    </header>
+    <div class="buscador">
+        <div class="ingresar_informacion">
+            <h3>Busca dónde jugar</h3>
+            <form  action="">
+                <select name="" id="" class="select_jugar">
+                    <option value="Jugar">Jugar</option>
+                </select>
+                <select name="" id="" class="select_departamento">
+                    <option value="Departamento">Departamento</option>
+                </select>
+                <input type="text" placeholder="Ingresa Departamento, Provincia o Distrito" class="input_ingresar">
+                <input type="submit" value="search" class="boton">
+            </form>
+            <button id="boton_modal" class="boton_modal">Search</button>
+        </div>
+    </div>
+    
+    <div class="informacion_locales">
+        <div class="ver_locales">
+            <p>Locales cerca de ti</p>
+            <a href="#">ver todo</a>
+        </div>
+        <div class="locales">
+            <div> 
+                <img src="http://lorempixel.com/300/200" alt="">
+                <h3>Supay Chiclayo Perú</h3>
+            </div>
+            <div>
+                <img src="http://lorempixel.com/300/200" alt="">
+                <h3>Red wings</h3>
+            </div>
+            <div>
+                <img src="http://lorempixel.com/300/200" alt="">
+                <h3>Underground players</h3>
+            </div>
+            <div>
+                <img src="http://lorempixel.com/300/200" alt="">
+                <h3>Last invades</h3>
+            </div>
+            <div>
+                <img src="http://lorempixel.com/300/200" alt="">
+                <h3>Bersekers</h3>
+            </div>
+        </div>
+    </div>
+    <div id="ventana_modal" class="ventana_modal">
+        <form class="formulario_modal" action="">
+                <select name="" id="" >
+                    <option value="Jugar">Jugar</option>
+                </select>
+                <select name="" id="" >
+                    <option value="Departamento">Departamento</option>
+                </select>
+                <input type="text" placeholder="Ingresa Departamento, Provincia o Distrito" >
+                <input type="submit" value="search">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

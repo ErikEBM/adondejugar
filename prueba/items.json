@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+        "name": "hacer comida",
+        "state": true 
+    },
+
+    {
+        "name": "hacer tarea",
+        "state": true
+    },
+
+    {   "name": "hacer limpieza",
+        "state": false
+
+    },
+    
+    {   "name": "hacer deberes",
+        "state": false
+
+    },
+
+    {   "name": "hacer ejercicios",
+        "state": false
+
+    },
+
+    {   "name": "hacer planes",
+        "state": false
+
+    },
+
+    {   "name": "hacer proyectos",
+        "state": false
+
+    }, 
+
+    {   "name": "hacer rutinas",
+        "state": false
+
+    }
+]
+}

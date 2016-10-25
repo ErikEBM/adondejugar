@@ -1,0 +1,43 @@
+.contenedor_principal{
+
+text-align: center;
+}
+.organiza{
+
+}
+.organiza>h1{
+
+font-weight: bold;
+
+padding-top: 20px;
+}
+.logo_principal{
+
+padding-bottom: 20px;
+
+padding-top: 20px;
+}
+.organiza_logos{
+
+}
+.organiza_logos>div{
+    
+display: inline-block;
+    
+margin-right: 12px;
+}
+.aliados{
+
+}
+.aliados>h1{
+font-weight: bold;
+padding-top: 59px;
+padding-bottom: 20px;
+}
+.aliados_logos{
+
+}
+.aliados_logos>div{
+display: inline-block;
+margin-right: 12px;
+}
